@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Loja Recomendada – Afiliado Amazon</title>
+  <meta name="description" content="Recomendações de produtos com links de afiliado Amazon. Conteúdo informativo e transparente." />
+  <style>
+    body { font-family: Arial, sans-serif; margin: 0; background: #f5f5f5; }
+    header { background: #232f3e; color: #fff; padding: 1rem; }
+    header h1 { margin: 0; }
+    nav a { color: #fff; margin-right: 1rem; text-decoration: none; font-size: 0.9rem; }
+    main { padding: 2rem; max-width: 1200px; margin: auto; }
+    .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 1.5rem; }
+    .card { background: #fff; border-radius: 8px; padding: 1rem; box-shadow: 0 2px 8px rgba(0,0,0,0.1); }
+    .card img { max-width: 100%; border-radius: 4px; }
+    .card h3 { font-size: 1.1rem; }
+    .card p { font-size: 0.9rem; color: #555; }
+    .card a { display: inline-block; margin-top: 0.5rem; padding: 0.5rem 1rem; background: #ff9900; color: #000; text-decoration: none; border-radius: 4px; font-weight: bold; }
+    section { margin-top: 3rem; }
+    footer { background: #232f3e; color: #fff; text-align: center; padding: 1rem; margin-top: 2rem; font-size: 0.8rem; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Tecnologia & Eletrônicos – Recomendações Amazon</h1>
+    <p>Conteúdo independente com indicações úteis</p>
+    <nav>
+      <a href="#produtos">Produtos</a>
+      <a href="#sobre">Sobre</a>
+      <a href="#privacidade">Privacidade</a>
+      <a href="#contato">Contato</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="produtos">
+      <h2>Produtos recomendados</h2>
+      <p>Selecionamos produtos de tecnologia e eletrônicos com base em desempenho, avaliações de usuários, confiabilidade da marca e custo-benefício.</p>
+      <div class="grid">
+        <div class="card">
+          <img src="https://via.placeholder.com/300x200" alt="Produto recomendado" />
+          <h3>Fone Bluetooth XYZ</h3>
+          <p>Fone de ouvido Bluetooth com cancelamento de ruído, boa autonomia de bateria e ótima avaliação para trabalho, estudos e uso diário.</p>
+          <a href="https://www.amazon.com.br/dp/SEUASIN?tag=SEUAFFILIATE-20" target="_blank" rel="noopener noreferrer">Ver na Amazon</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="sobre">
+      <h2>Sobre</h2>
+      <p>Este site é dedicado ao nicho de tecnologia e eletrônicos, reunindo análises e recomendações de produtos como fones, acessórios, periféricos e equipamentos para uso pessoal e profissional. As indicações são feitas de forma independente, com base em pesquisa, testes e avaliações de usuários.</p>
+    </section>
+
+    <section id="privacidade">
+      <h2>Política de Privacidade</h2>
+      <p>Não coletamos dados pessoais diretamente. Links podem direcionar para sites de terceiros, como a Amazon, que possuem suas próprias políticas de privacidade.</p>
+      <p>Como participante do Programa de Associados da Amazon, posso receber comissão por compras qualificadas, sem custo adicional para você.</p>
+    </section>
+
+    <section id="contato">
+      <h2>Contato</h2>
+      <p>Para dúvidas ou sugestões, entre em contato pelo e-mail: <strong>contato@exemplo.com</strong></p>
+    </section>
+  </main>
+
+  <footer>
+    <p>Este site participa do Programa de Associados da Amazon.</p>
+  </footer>
+</body>
+</html>
